@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<br>
+#foreach($key in $map.keySet())
+Number $!{foreach.index}/$!{foreach.count}: $!{key} $map.get($key)
+</br>
+#end
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+<!--#foreach($color in $map.get("list"))
+Color $!{foreach.index}/$!{foreach.count}: $!{color}
+</br>
+#end
+</br>
+$!{name}
+</br>
+$!{map.get("key")}
+</br>
+$!{map.get("value")}
+</br>
+$!{users.name}
+
+
+$!{c.status}
+</br>
+$!{c.content}
+</br>
+$date.format('yy-MM-dd',$!{c.createdDate})
+</br>
+$!{c.createdDate}-->
+
+<form action="/testParam" method="post">
+    <input type="hidden" name="userId" value="chenhao"/>
+    <input type="submit" value="提交"/>
+</form>
+
+</br>
+</body>
+</html>
